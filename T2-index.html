@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="T2-style.css">
+</head>
+<body>
+
+  <!-- Ambient Background Orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <main class="device" id="device">
+    <div class="device-label">
+      <span>CALCULATOR</span>
+      <span class="device-model">PRO</span>
+    </div>
+
+    <div class="screen">
+      <div class="screen-history" id="history" aria-hidden="true"></div>
+      <div class="screen-expression" id="expression">0</div>
+    </div>
+
+    <div class="pad">
+      <button class="key key--fn" data-action="clear">AC</button>
+      <button class="key key--fn" data-val="(">(</button>
+      <button class="key key--fn" data-val=")">)</button>
+      <button class="key key--op" data-val="÷">÷</button>
+
+      <button class="key" data-val="7">7</button>
+      <button class="key" data-val="8">8</button>
+      <button class="key" data-val="9">9</button>
+      <button class="key key--op" data-val="×">×</button>
+
+      <button class="key" data-val="4">4</button>
+      <button class="key" data-val="5">5</button>
+      <button class="key" data-val="6">6</button>
+      <button class="key key--op" data-val="−">−</button>
+
+      <button class="key" data-val="1">1</button>
+      <button class="key" data-val="2">2</button>
+      <button class="key" data-val="3">3</button>
+      <button class="key key--op" data-val="+">+</button>
+
+      <button class="key key--wide" data-val="0">0</button>
+      <button class="key" data-val=".">.</button>
+      <button class="key" data-action="backspace">⌫</button>
+      <button class="key key--eq" data-action="equals">=</button>
+    </div>
+  </main>
+
+  <script src="T2-script.js"></script>
+</body>
+</html>
