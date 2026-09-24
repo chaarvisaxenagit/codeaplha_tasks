@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="T1-style.css">
+</head>
+<body>
+    <div class="background-mesh"></div>
+    <div class="gallery-container">
+        <header class="gallery-header">
+            <h1>Imagery</h1>
+        </header>
+        
+        <div class="filter-wrapper">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="architecture">Architecture</button>
+                <button class="filter-btn" data-filter="people">People</button>
+                <button class="filter-btn" data-filter="animals">Animals</button>
+                <button class="filter-btn" data-filter="food">Food</button>
+                <button class="filter-btn" data-filter="tech">Tech</button>
+            </div>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Nature (5) -->
+            <div class="gallery-item" data-category="nature"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMb26HBU9J3LOKzN8BywaTqJeRtaTVgKKOq4FaMaH8zw&s=10" alt="Nature 1" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="nature"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvI55tpGnChX65YhFsd0pyBFPxcdo7x0MNRrAAVpuNoQ&s=10" alt="Nature 2" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="nature"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToy6OWAfKURkx1mv7UXLmZHUGE0-KL-JfrcZRzJ4iv4w&s=10" alt="Nature 3" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="nature"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwa9s_huxa42exTsIfmLcEGLPnjIQIZ7yifhP5eePVeg&s" alt="Nature 4" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="nature"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-Qr_tzqcmiG5dlCleVdoPj_d76OWn1etTfxB_qqXoA&s=10" alt="Nature 5" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+           
+            <!-- Architecture (5) -->
+            <div class="gallery-item" data-category="architecture"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqjgHlk9AVK59LkdgCzXqOLKLwj4zvDt216rAJl6MHeg&s=10" alt="Architecture 6" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="architecture"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFHFi_VY3WpBnPqoCwhl1MfxY6avXSm40yFE5GiojdEw&s=10" alt="Architecture 7" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="architecture"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjMdod0iIpBI2rTbBtnx0lNMzGzuqy3dTwFbikWcC_PQ&s=10" alt="Architecture 8" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="architecture"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEWHB4AthJZirOyFCWt0ze0ZZhy8cUSUV92niG_BGlUg&s=10" alt="Architecture 9" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="architecture"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7IBhXBPx0kkl3MGWrgbo9H3_5NBLXvYt9NTbkYRZ72Q&s=10" alt="Architecture 10" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+
+            <!-- People (5) -->
+            <div class="gallery-item" data-category="people"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAzTf9rl5S5I7ZCdizd7K4lx2ZexqheBF9KZD3_Slzg&s=10" alt="People 1" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="people"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAr6srdgdK9G0cilcxpxMwZZtCyMRrwPZP1rGP-3RGMQ&s=10" alt="People 2" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="people"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0lZGBUN8S46rtIy591fR5E_lpu78RFQj23ytiE5GqVw&s=10" alt="People 3" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="people"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd76B0mFJyiNxbOgBEDyD2Nrvkh9sB1WTqerKYZf20TA&s=10" alt="People 4" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="people"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToL2JHdpdSP72Hik4E4WQB8OuHzE94u7XmPVDD2kV3tw&s=10" alt="People 5" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+           
+            <!-- Animals (5) -->
+            <div class="gallery-item" data-category="animals"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLmt-rS4Rainz-rsngxQ_8aT3vxADGV7TSzjaCYXhfnA&s" alt="Animal 1" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="animals"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIAGoC3856cNUr9RF9CNTfbtlxAXdWB0vzZBNQ5FuQAA&s" alt="Animal 2" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="animals"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbK1mzhFzi3MOayrXnqL-wDgNBRjUPKogF6I8HjHs5A&s=10" alt="Animal 3" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="animals"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWuqpp9IWsOcDd-jg0QOjBj91pVv5FGir4wlerAa8Yug&s=10" alt="Animal 4" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="animals"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG9uXGEbOiqTYOLSHFY9pDOWhs-KMjEGVx3BaEpfhuGQ&s=10" alt="Animal 5" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            
+            <!-- Food (5) -->
+            <div class="gallery-item" data-category="food"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52sF2gN5eQUkOkdzXns2-gawWSI-NRQF1izFrHkXJXg&s=10" alt="Food 1" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="food"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_okBGfqA90Z3satCq2VBrLrE0iUhD-8HdXl8JIdnqYQ&s=10" alt="Food 2" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="food"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCCgbkay6uqHml_H6OmMv1XFFcQ3NMp0wnJYTw0lANTg&s=10" alt="Food 3" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="food"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Qx7wAPeakZd7PXJvixLduEqzYJb7B7GRC3JiZTPwlg&s=10" alt="Food 4" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="food"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVd-7IoTW7n_-J9V5nqYQHx5YOAv8rAWAFlwEhBd_aEg&s=10" alt="Food 5" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+           
+            <!-- Tech (5) -->
+            <div class="gallery-item" data-category="tech"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST7L9egAYzKiPfLy8cPiyroROjRzcfCfd7nLaourCkug&s=10" alt="Tech 1" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="tech"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4W-zAxWLAvkhvDkbBBLju56_xGfrZAs_LUJqg8OKacQ&s=10" alt="Tech 2" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="tech"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqAlYuxwZ90RQew3_iVCUFEj9JnEic5y1fCRoy-eQBqw&s=10" alt="Tech 3" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="tech"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBvLSZYZ8KIbgxayECit7P7S_wPPD70j3N7zTIlqMJQ&s=10" alt="Tech 4" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+            <div class="gallery-item" data-category="tech"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgkDA529fHLOgtXlGg7oWTbCaV-NSd3_si4dlazRVuag&s=10" alt="Tech 5" loading="lazy"><div class="gallery-overlay"><button class="view-btn">View</button></div></div>
+        </div>
+    </div>
+
+    <!-- Enhanced Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-backdrop"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="closeBtn">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+            </button>
+            <button class="lightbox-nav lightbox-prev" id="prevBtn">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg>
+            </button>
+            
+            <div class="image-wrapper">
+                <img id="lightboxImage" src="" alt="Gallery Image">
+            </div>
+            
+            <button class="lightbox-nav lightbox-next" id="nextBtn">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"></path></svg>
+            </button>
+            
+            <div class="lightbox-info">
+                <span id="imageCounter" class="glass-pill">1 / 55</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="T1-script.js"></script>
+</body>
+</html>
